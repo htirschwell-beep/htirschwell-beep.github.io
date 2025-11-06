@@ -4,18 +4,24 @@
         <meta charset="utf-8">
         <title> ALL ABOUT CORN</title>
         <style>
-            #headings {
+            #headings-container {
                 font-family: Comic Sans MS;
                 text-align: center;
                 padding-left: 20px;
                 padding-right: 32.3px;
+            }
+            #title-row {
                 display: flex;
                 align-items: center;
                 justify-content: center;
             }
-            #headings img {
-                height: 100px;
+            #title-row img {
+                height: 200px;
                 width: auto;
+            }
+            #subheading {
+                font-size: 32px;
+                margin-top: 10px;
             }
             body {
                 background-color: rgb(252, 252, 86);
@@ -30,11 +36,13 @@
         </style>
     </head>
     <body>
-        <div id="headings">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Up_close_image_of_corn.jpg/1280px-Up_close_image_of_corn.jpg" id="corn-image">
-            <h1>ALL ABOUT CORN</h1>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Up_close_image_of_corn.jpg/1280px-Up_close_image_of_corn.jpg" id="corn-image2">
-            <h3>Everything you will ever need to <br>know about corn!</h3>
+        <div id="headings-container">
+            <div id="title-row">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Up_close_image_of_corn.jpg/1280px-Up_close_image_of_corn.jpg" id="corn-image">
+                <h1>ALL ABOUT CORN</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Up_close_image_of_corn.jpg/1280px-Up_close_image_of_corn.jpg" id="corn-image2">
+            </div>
+            <h2 id="subheading">Everything you will ever need to know about corn!</h2>
         </div>
         <h2>Table of Contents</h2>
         <ol>
